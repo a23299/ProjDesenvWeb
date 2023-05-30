@@ -7,7 +7,7 @@ namespace ProjDesenvWeb.Models
         /// <summary>
         /// ID_jogo
         /// </summary>
-        public int ID_jogo { get; set; }
+        public int id_jogo { get; set; }
 
         /// <summary>
         /// nome
@@ -17,7 +17,7 @@ namespace ProjDesenvWeb.Models
         /// <summary>
         /// Id_utilizador
         /// </summary>
-        public int ID_utilizador { get; set; }
+        public int id_utilizador { get; set; }
 
         /// <summary>
         /// Data de Lancamaneto

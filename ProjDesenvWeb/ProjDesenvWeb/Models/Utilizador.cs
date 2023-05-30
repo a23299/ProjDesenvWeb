@@ -3,15 +3,13 @@ using System.Xml.Linq;
 
 namespace ProjDesenvWeb.Models
 {
-<<<<<<< HEAD
-    public class Utilizador { 
-=======
+
     public class Utilizador
     {
         /// <summary>
         /// id do user
         /// </summary>
-        public int ID_Utilizador { get; set; }
+        public int id_Utilizador { get; set; }
 
         /// <summary>
         /// Nome Completo do user
@@ -44,7 +42,7 @@ namespace ProjDesenvWeb.Models
         [Required(ErrorMessage = "O {0} é de preenchimento obrigatório")]
         [StringLength(50)]
         public string password { get; set; }
->>>>>>> 73fe2ad3b4b6d433ac436d5360db5a6dae586574
+
 
     }
 }

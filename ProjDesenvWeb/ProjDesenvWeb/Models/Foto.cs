@@ -1,9 +1,31 @@
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+using System.Xml.Linq;
+
 namespace ProjDesenvWeb.Models
 {
-    public class ErrorViewModel
+    public class Foto
     {
-        public string? RequestId { get; set; }
+        /// <summary>
+        /// id foto
+        /// </summary>
+        public int id_foto { get; set; }
 
-        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+        /// <summary>
+        /// id do jogo
+        /// </summary>
+        [ForeignKey(nameof(jogo))]
+        [Display(Name = "jogo")]
+        public int id_jogo { get; set; }
+        public Jogos jogo { get; set; }
+        /// <summary>
+        /// Nome ficheiro
+        /// </summary>
+        public string Nomefichéiro { get; set; }
+        /// <summary>
+        /// titulo
+        /// </summary>
+        public string Titulo { get; set; }
+
     }
 }
