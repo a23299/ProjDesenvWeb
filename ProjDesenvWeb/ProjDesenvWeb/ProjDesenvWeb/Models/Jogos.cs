@@ -2,48 +2,43 @@
 
 namespace ProjDesenvWeb.Models
 {
-    public class Jogos{
-
+    public class Jogos
+    {
         /// <summary>
-        /// ID_jogo
+        /// id do jogo
         /// </summary>
-        public int id_jogo { get; set; }
+        public int Id_jogo { get; set; }
 
         /// <summary>
-        /// nome
+        /// nome do jogo
         /// </summary>
-        public string nome { get; set; }
+        public string Nome { get; set; }
 
         /// <summary>
-        /// Id_utilizador
-        /// </summary>
-        public int id_utilizador { get; set; }
-
-        /// <summary>
-        /// Data de Lancamaneto
+        /// data de lancamaneto do jogo
         /// </summary>
         [DataType(DataType.Date)]
         public DateTime DataDelancamento { get; set; }
         
         /// <summary>
-        /// Genero
+        /// género do jogo
         /// </summary>
         public string Genero { get; set; }
 
         /// <summary>
-        /// Desenvolvedor
+        /// desenvolvedor do jogo
         /// </summary>
         public string Desenvolvedor { get; set; }
 
 
         /// <summary>
-        /// Plataformas
+        /// plataformas do jogo
         /// </summary>
         public string Plataformas { get; set; }
 
 
         /// <summary>
-        /// Preco
+        /// preço do jogo
         /// </summary>
         [DataType(DataType.Currency)]
         public decimal Preco { get; set; }

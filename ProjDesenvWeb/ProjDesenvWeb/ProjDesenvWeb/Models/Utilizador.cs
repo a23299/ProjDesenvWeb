@@ -12,7 +12,7 @@ namespace ProjDesenvWeb.Models
         public int id_Utilizador { get; set; }
 
         /// <summary>
-        /// Nome Completo do user
+        /// username -> utilizador
         /// </summary>
         [Required(ErrorMessage = "O {0} é de preenchimento obrigatório")]
         [Display(Name = "Nome do Utilizador")]
@@ -20,7 +20,7 @@ namespace ProjDesenvWeb.Models
         public string userName { get; set; }
 
         /// <summary>
-        /// username do utilizador
+        /// nome completo do user
         /// </summary>
         [Required(ErrorMessage = "O {0} é de preenchimento obrigatório")]
         [Display(Name = "Nome Completo")]

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jorge\\Source\\Repos\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb.csproj": {}
+    "D:\\universidade\\disciplinas\\4 Desenvolvimento Web\\Projeto\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jorge\\Source\\Repos\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb.csproj": {
+    "D:\\universidade\\disciplinas\\4 Desenvolvimento Web\\Projeto\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jorge\\Source\\Repos\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb.csproj",
+        "projectUniqueName": "D:\\universidade\\disciplinas\\4 Desenvolvimento Web\\Projeto\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb.csproj",
         "projectName": "ProjDesenvWeb",
-        "projectPath": "C:\\Users\\jorge\\Source\\Repos\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb.csproj",
-        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jorge\\Source\\Repos\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb\\obj\\",
+        "projectPath": "D:\\universidade\\disciplinas\\4 Desenvolvimento Web\\Projeto\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb.csproj",
+        "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
+        "outputPath": "D:\\universidade\\disciplinas\\4 Desenvolvimento Web\\Projeto\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

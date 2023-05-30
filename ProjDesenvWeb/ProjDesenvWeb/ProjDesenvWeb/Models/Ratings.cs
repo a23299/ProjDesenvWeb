@@ -7,29 +7,32 @@ namespace ProjDesenvWeb.Models
     public class Ratings{
 
         /// <summary>
-        /// Id_rating
+        /// id do rating
         /// </summary>
-        public int id_rating { get; set; }
+        public int Id_rating { get; set; }
 
         /// <summary>
         /// rating
         /// </summary>
+        [Required]
         public int Rating { get; set; }
 
         /// <summary>
-        /// Id jogo
+        /// id do jogo
         /// </summary>
+        [Required]
         [ForeignKey(nameof(jogo))]
         [Display(Name = "Jogo")]
-        public int id_jogo { get; set; }
-        public Jogos jogo { get; set; }
+        public int Id_jogo { get; set; }
+        public Jogos Jogo { get; set; }
 
         /// <summary>
-        /// Id utilizador
+        /// id do utilizador
         /// </summary>
+        [Required]
         [ForeignKey(nameof(Utilizador))]
         [Display(Name = "Utilizador")]
-        public int id_Utilizador { get; set; }
+        public int Id_Utilizador { get; set; }
         public Utilizador Utilizador { get; set; }
 
     }
