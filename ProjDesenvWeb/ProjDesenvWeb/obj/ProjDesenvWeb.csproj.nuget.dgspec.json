@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\universidade\\disciplinas\\4 Desenvolvimento Web\\Projeto\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb.csproj": {}
+    "C:\\Users\\jorge\\Source\\Repos\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb.csproj": {}
   },
   "projects": {
-    "D:\\universidade\\disciplinas\\4 Desenvolvimento Web\\Projeto\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb.csproj": {
+    "C:\\Users\\jorge\\Source\\Repos\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\universidade\\disciplinas\\4 Desenvolvimento Web\\Projeto\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb.csproj",
+        "projectUniqueName": "C:\\Users\\jorge\\Source\\Repos\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb.csproj",
         "projectName": "ProjDesenvWeb",
-        "projectPath": "D:\\universidade\\disciplinas\\4 Desenvolvimento Web\\Projeto\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb.csproj",
-        "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-        "outputPath": "D:\\universidade\\disciplinas\\4 Desenvolvimento Web\\Projeto\\ProjDesenvWeb\\ProjDesenvWeb\\obj\\",
+        "projectPath": "C:\\Users\\jorge\\Source\\Repos\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb.csproj",
+        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jorge\\Source\\Repos\\ProjDesenvWeb\\ProjDesenvWeb\\ProjDesenvWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

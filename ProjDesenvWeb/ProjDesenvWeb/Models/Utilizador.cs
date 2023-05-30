@@ -3,6 +3,9 @@ using System.Xml.Linq;
 
 namespace ProjDesenvWeb.Models
 {
+<<<<<<< HEAD
+    public class Utilizador { 
+=======
     public class Utilizador
     {
         /// <summary>
@@ -41,6 +44,7 @@ namespace ProjDesenvWeb.Models
         [Required(ErrorMessage = "O {0} é de preenchimento obrigatório")]
         [StringLength(50)]
         public string password { get; set; }
+>>>>>>> 73fe2ad3b4b6d433ac436d5360db5a6dae586574
 
     }
 }
