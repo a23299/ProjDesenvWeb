@@ -11,6 +11,18 @@
         /// rating
         /// </summary>
         public int Rating { get; set; }
-        
+
+        /// <summary>
+        /// Id jogo
+        /// </summary>
+        public int ID_jogo { get; set; }
+        public Jogos jogo { get; set; }
+
+        /// <summary>
+        /// Id utilizador
+        /// </summary>
+        public int ID_Utilizador { get; set; }
+        public Utilizador Utilizador { get; set; }
+
     }
 }

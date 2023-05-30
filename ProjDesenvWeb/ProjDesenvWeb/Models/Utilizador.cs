@@ -11,7 +11,7 @@ namespace ProjDesenvWeb.Models
         /// <summary>
         /// id do user
         /// </summary>
-        public int ID { get; set; }
+        public int ID_Utilizador { get; set; }
 
         /// <summary>
         /// Nome Completo do user
