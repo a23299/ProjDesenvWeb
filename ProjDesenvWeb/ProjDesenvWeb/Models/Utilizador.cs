@@ -1,0 +1,48 @@
+﻿using System.ComponentModel.DataAnnotations;
+using System.Xml.Linq;
+
+namespace ProjDesenvWeb.Models
+{
+
+    public class Utilizador
+    {
+        /// <summary>
+        /// id do user
+        /// </summary>
+        public int id_Utilizador { get; set; }
+
+        /// <summary>
+        /// Nome Completo do user
+        /// </summary>
+        [Required(ErrorMessage = "O {0} é de preenchimento obrigatório")]
+        [Display(Name = "Nome do Utilizador")]
+        [StringLength(50)]
+        public string userName { get; set; }
+
+        /// <summary>
+        /// username do utilizador
+        /// </summary>
+        [Required(ErrorMessage = "O {0} é de preenchimento obrigatório")]
+        [Display(Name = "Nome Completo")]
+        [StringLength(50)]
+        public string NomeCompleto { get; set; }
+
+        /// <summary>
+        /// email do user
+        /// </summary>
+        [EmailAddress(ErrorMessage = "O {0} não está corretamente escrito")]
+        [Required(ErrorMessage = "O {0} é de preenchimento obrigatório")]
+        [RegularExpression("[a-z._0-9]+@gmail.com", ErrorMessage = "O {0} tem de ser do GMail")]
+        [StringLength(40)]
+        public string Email { get; set; }
+
+        /// <summary>
+        /// password do user
+        /// </summary>
+        [Required(ErrorMessage = "O {0} é de preenchimento obrigatório")]
+        [StringLength(50)]
+        public string Password { get; set; }
+
+
+    }
+}
